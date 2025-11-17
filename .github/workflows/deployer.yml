@@ -69,7 +69,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} install
 
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        run: ${{ steps.detect-package-manager.outputs.runner }} run build
 
       - name: postbuild
         run: npm run postbuild
