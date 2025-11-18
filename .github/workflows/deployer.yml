@@ -24,8 +24,8 @@ jobs:
       #     fetch-depth: 0
 
 
-      # - name: Install pnpm
-      #   run: npm install -g pnpm
+      - name: Install pnpm
+        run: npm install -g pnpm
 
       - name: Detect package manager
         id: detect-package-manager
